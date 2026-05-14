@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="After Dark is a quiet alternate web space for late-night notes, links, logs, and personal experiments by Akshit Mehta."
+    />
+    <meta name="theme-color" content="#09080d" />
+    <meta property="og:title" content="After Dark" />
+    <meta
+      property="og:description"
+      content="A late-night corner for notes, links, logs, and small experiments."
+    />
+    <meta property="og:type" content="website" />
+    <title>After Dark</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <canvas id="night-scene" aria-hidden="true"></canvas>
+
+    <main class="shell">
+      <section class="hero" aria-labelledby="page-title">
+        <p class="eyebrow">Akshit Mehta / off-hours</p>
+        <h1 id="page-title">After Dark</h1>
+        <p class="lede">
+          A quieter index for late-night notes, experiments, reading trails, and unfinished ideas.
+        </p>
+      </section>
+
+      <section class="directory" aria-labelledby="directory-title">
+        <div class="section-heading">
+          <p class="eyebrow">Start here</p>
+          <h2 id="directory-title">Paths</h2>
+        </div>
+
+        <ul class="link-grid">
+          <li>
+            <a href="/after-dark/now">
+              <span>Now</span>
+              <small>current work, focus, and active obsessions</small>
+            </a>
+          </li>
+          <li>
+            <a href="/after-dark/log">
+              <span>Log</span>
+              <small>short notes from builds, fixes, and experiments</small>
+            </a>
+          </li>
+          <li>
+            <a href="/after-dark/projects">
+              <span>Projects</span>
+              <small>small tools and prototypes that do not need polish yet</small>
+            </a>
+          </li>
+          <li>
+            <a href="/after-dark/notes">
+              <span>Notes</span>
+              <small>learning notes, implementation details, and references</small>
+            </a>
+          </li>
+          <li>
+            <a href="/after-dark/links">
+              <span>Links</span>
+              <small>things worth revisiting instead of losing in tabs</small>
+            </a>
+          </li>
+          <li>
+            <a href="/after-dark/archive">
+              <span>Archive</span>
+              <small>old versions, abandoned ideas, and useful leftovers</small>
+            </a>
+          </li>
+        </ul>
+      </section>
+    </main>
+
+    <script src="script.js" defer></script>
+  </body>
+</html>
